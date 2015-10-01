@@ -1,0 +1,14 @@
+{
+  "name": "cardgen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/cardgen.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dmi3y<lapshukov@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "sugar": "^1.4.1"
+  }
+}

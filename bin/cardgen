@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+var cardgen = require("../lib/cardgen");
+
+var visa = require("../brands/visa");
+var master = require("../brands/master-card");
+var discover = require("../brands/discover");
+
+cardgen.register(visa);
+cardgen.register(master);
+cardgen.register(discover);
+
+var card = cardgen.generate();
+console.log(card.type, card.number);
