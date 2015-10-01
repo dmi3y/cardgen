@@ -12,6 +12,6 @@ Current cli loads Visa, Master Card and Discover, although there is couple more 
 - Add .rc file
 - Make use in browser and other enviroments
 
-# Disclaimer
+## Disclaimer
 
-This software created to be used for testing purposes only.
+This software created, and ment to be used for testing purposes only.
