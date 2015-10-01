@@ -2,6 +2,10 @@
   "name": "cardgen",
   "version": "1.0.0",
   "description": "",
+  "preferGlobal": true,
+  "bin": {
+    "cardgen": "bin/cardgen"
+  },
   "main": "lib/cardgen.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

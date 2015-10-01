@@ -14,4 +14,4 @@ Current cli loads Visa, Master Card and Discover, although there is couple more 
 
 # Disclaimer
 
-These software created to be used for testing purposes only.
+This software created to be used for testing purposes only.
