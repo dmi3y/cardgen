@@ -11,12 +11,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "dmi3y<lapshukov@gmail.com>",
-  "repository" : { 
-    "type" : "git",
-    "url" : "https://github.com/dmi3y/cardgen.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dmi3y/cardgen.git"
   },
   "license": "MIT",
   "dependencies": {
+    "minimist": "^1.2.0",
     "sugar": "^1.4.1"
   }
 }

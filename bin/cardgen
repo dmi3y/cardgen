@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 var cardgen = require("../lib/cardgen");
+var argv = require('minimist')(process.argv.slice(2));
 
 var visa = require("../brands/visa");
 var master = require("../brands/master-card");
@@ -10,5 +11,10 @@ cardgen.register(visa);
 cardgen.register(master);
 cardgen.register(discover);
 
-var card = cardgen.generate();
-console.log(card.type, card.number);
+var repeat = argv.r || 1;
+
+for (; repeat --> 0  ;) {
+	
+	var card = cardgen.generate();
+	console.log(card.type, card.number);
+}
