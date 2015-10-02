@@ -4,13 +4,13 @@ Generate random credit/debit card numbers for testing purposes.
 
 Usage:
 
-> cardgen visa -n 5
+> cardgen visa discover -n 5
 
-> visa 4200584476931582
-> visa 4375899903700809
-> visa 4125408147317991
-> visa 4536946768772336
-> visa 4838780577779264
+> visa 4814371752577513
+> discover 6521713793937678
+> visa 4012795915725090
+> discover 6502205537914199
+> visa 4279615567473583
 
 Available vendor names are: `visa`, `master-card`, `dinners-club`, `american-express`, `discover`, `jsb`. Multiply vendors are acceptable.
 
