@@ -6,11 +6,11 @@ Usage:
 
 > cardgen visa discover -n 5
 
-> visa 4814371752577513
-> discover 6521713793937678
-> visa 4012795915725090
-> discover 6502205537914199
-> visa 4279615567473583
+> visa 4814371752577513  
+> discover 6521713793937678  
+> visa 4012795915725090  
+> discover 6502205537914199  
+> visa 4279615567473583  
 
 Available vendor names are: `visa`, `master-card`, `dinners-club`, `american-express`, `discover`, `jsb`. Multiply vendors are acceptable.
 
