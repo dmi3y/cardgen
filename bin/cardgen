@@ -2,14 +2,18 @@
 
 var cardgen = require("../lib/cardgen");
 var argv = require('minimist')(process.argv.slice(2));
+var fs = require("fs");
 
 var vendors = argv._;
-var repeat = argv.r || 1;
+var repeat = argv.n || vendors.length;
 
 vendors.forEach(function(el) {
-	var vendor = require(__dirname + "/../vendors/" + el);
-	debugger;
-	cardgen.register(vendor);
+	var path = __dirname + "/../vendors/" + el + ".js";
+	if ( fs.statSync(path) ) {
+
+		var vendor = require(path);
+		cardgen.register(vendor);
+	}
 });
 
 for (; repeat --> 0  ;) {
