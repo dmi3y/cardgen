@@ -12,7 +12,7 @@ Usage:
 > visa 4536946768772336
 > visa 4838780577779264
 
-Acceptable vendor names are: `visa`, `master-card`, `dinners-club`, `american-express`, `discover`, `jsb`. Multiply vendors are acceptable.
+Available vendor names are: `visa`, `master-card`, `dinners-club`, `american-express`, `discover`, `jsb`. Multiply vendors are acceptable.
 
 It is possible to add new vendor, have a look at examples into the `vendors` directory.
 
@@ -22,7 +22,7 @@ It is possible to add new vendor, have a look at examples into the `vendors` dir
 
 - Get rid of Sugar
 - Expand cli capabilities
-- Split out cli and core generator
+- Split out cli and core generator as a separate modules
 - Make use in browser and other enviroments
 
 ## Disclaimer
