@@ -1,7 +1,7 @@
 "use strict";
 
 module.exports = {
-    type: "JCB",
+    type: "jcb",
     prereq: function() {
         var begin = [];
         var length = 15;

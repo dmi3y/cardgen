@@ -2,7 +2,7 @@
 
 // Source http://www.regular-expressions.info/creditcard.html
 module.exports = {
-    type: "VISA",
+    type: "visa",
     prereq: function() {
 
         // All Visa card numbers start with a 4. New cards have 16 digits. Old cards have 13.

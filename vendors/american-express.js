@@ -1,7 +1,7 @@
 "use strict";
 
 module.exports = {
-    type: "EXPRESS",
+	type: "american-express",
     prereq: function() {
 
         // American Express card numbers start with 34 or 37 and have 15 digits.

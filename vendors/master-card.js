@@ -1,7 +1,7 @@
 "use strict";
 
 module.exports = {
-    type: "MASTER",
+	type: "master-card",
     prereq: function() {
 
         // All MasterCard numbers start with the numbers 51 through 55. All have 16 digits.

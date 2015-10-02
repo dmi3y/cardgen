@@ -3,15 +3,14 @@
 var cardgen = require("../lib/cardgen");
 var argv = require('minimist')(process.argv.slice(2));
 
-var visa = require("../brands/visa");
-var master = require("../brands/master-card");
-var discover = require("../brands/discover");
+var vendors = argv._;
+var repeat = argv.r || 1;
 
-cardgen.register(visa);
-cardgen.register(master);
-cardgen.register(discover);
-
-var repeat = argv.r || argv.repeat || 1;
+vendors.forEach(function(el) {
+	var vendor = require(__dirname + "/../vendors/" + el);
+	debugger;
+	cardgen.register(vendor);
+});
 
 for (; repeat --> 0  ;) {
 

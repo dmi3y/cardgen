@@ -1,7 +1,7 @@
 "use strict";
 
 module.exports = {
-    type: "DISCOVER",
+    type: "discover",
     prereq: function() {
         var out, begin = [];
         // Discover card numbers begin with 6011 or 65. All have 16 digits.

@@ -1,7 +1,7 @@
 "use strict";
 
 module.exports = {
-    type: "DINNERS",
+    type: "dinners-club",
     prereq: function() {
         var out, begin = [];
         // Diners Club card numbers begin with 300 through 305, 36 or 38. All have 14 digits.
