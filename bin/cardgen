@@ -11,10 +11,10 @@ cardgen.register(visa);
 cardgen.register(master);
 cardgen.register(discover);
 
-var repeat = argv.r || 1;
+var repeat = argv.r || argv.repeat || 1;
 
 for (; repeat --> 0  ;) {
-	
+
 	var card = cardgen.generate();
 	console.log(card.type, card.number);
 }
