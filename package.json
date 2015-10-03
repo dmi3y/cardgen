@@ -2,7 +2,6 @@
   "name": "cardgen",
   "version": "2.0.0",
   "description": "Randomized credit/debit card number generator with cli",
-  "preferGlobal": true,
   "bin": {
     "cardgen": "bin/cardgen"
   },
