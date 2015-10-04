@@ -2,7 +2,7 @@
 
 Generate random credit/debit card numbers for testing purposes.
 
-Usage:
+Usage from command line (globaly installed `npm i -g cardgen`):
 
 > cardgen visa discover -n 5
 
@@ -12,11 +12,16 @@ Usage:
 > discover 6502205537914199  
 > visa 4279615567473583  
 
-Available vendor names are: `visa`, `master-card`, `dinners-club`, `american-express`, `discover`, `jsb`. Multiply vendors are acceptable.
+Available vendor names are: `visa`, `master-card`, `diners-club`, `american-express`, `discover`, `jsb`. Multiply vendors are acceptable.
 
 It is possible to add new vendor, have a look at examples into the `vendors` directory.
 
 `-n` flag is for repeating, in case no provided cli will take it as a number of vendors provided.
+
+## FAQ
+
+Q. What does this code `..for (; i --> 0 ;) {..` means?
+A. This is fancy way to write reverse loop, which is arguably looks better compared with classic version `..for(var i = array.length; i > 0; i--). In fact conscruction `-->` combination of two operators `--` and `>`, so every step `i` gets decrimented by 1 and compared if it is less then zero.
 
 ## TODO
 
@@ -28,3 +33,5 @@ It is possible to add new vendor, have a look at examples into the `vendors` dir
 ## Disclaimer
 
 This software created, and ment to be used for testing purposes only.
+
+[1]: 
