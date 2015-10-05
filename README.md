@@ -23,7 +23,7 @@ For the node module usage example have a look at `bin/cardgen` file.
 ## FAQ
 
 Q. What does this code `..for (; i --> 0 ;) {..` means?  
-A. This is fancy way to write reverse loop, which is arguably looks cleaner compared with classic version of it `..for(var i = array.length; i > 0; i--)`. In fact construction `-->` is combination of two operators `--` and `>`, so every step `i` gets decremented by 1 and compared if it is less then zero.
+A. This is fancy way to write reverse loop, which is arguably looks cleaner compared with classic version of it `..for(var i = array.length; i > 0; i--)`. In fact construction `-->` is combination of two operators `>` and `--`, so every step `i` get compared if it is still more than zero and decremented by one afteword.
 
 ## TODO
 
