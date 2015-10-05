@@ -27,8 +27,6 @@ A. This is fancy way to write reverse loop, which is arguably looks better compa
 
 ## TODO
 
-- Get rid of Sugar
-- Expand cli capabilities
 - Split out cli and core generator as a separate modules
 - Make use in browser and other enviroments
 
