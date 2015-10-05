@@ -18,6 +18,8 @@ It is possible to add new vendor, have a look at examples into the `vendors` dir
 
 `-n` flag is for repeating, in case no provided cli will take it as a number of vendors provided.
 
+For the node module usage example have a look at `bin/cardgen` file.
+
 ## FAQ
 
 Q. What does this code `..for (; i --> 0 ;) {..` means?
